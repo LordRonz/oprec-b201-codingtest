@@ -12,7 +12,11 @@ test_problem () {
     done
 }
 
-cd problem-0
+cd problem-sanity-check
+gcc solution.c
+test_problem 10
+
+cd ../problem-0
 gcc solution.c
 test_problem 20
 
