@@ -31,3 +31,5 @@ test_problem 20
 cd ../test-problem-3
 g++ solution.cpp
 test_problem 20
+
+echo "Solutions verified !"
