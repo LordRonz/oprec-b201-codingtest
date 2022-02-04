@@ -23,10 +23,10 @@ def generate_testcase(ith = 1):
             break
 
     with open(f'{ith}.in', 'w') as f:
-        f.write(f'{n}\n' + ' '.join(f'{a}' for a in nums))
+        f.write(f'{n}\n' + ' '.join(f'{a}' for a in nums) + '\n')
 
     with open(f'{ith}.out', 'w') as f:
-        f.write(f'{ans}')
+        f.write(f'{ans}\n')
 
 for i in range(t):
     generate_testcase(i + 1)

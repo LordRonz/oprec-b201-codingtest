@@ -16,6 +16,10 @@ cd problem-0
 gcc solution.c
 test_problem 20
 
+cd ../problem-1
+g++ solution.cpp
+test_problem 30
+
 cd ../test-problem-0
 gcc solution.c
 test_problem 1

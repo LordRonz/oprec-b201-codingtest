@@ -25,10 +25,10 @@ def generate_testcase(ith = 1):
         ans_cnt[2] = 1
 
     with open(f'{ith}.in', 'w') as f:
-        f.write(s)
+        f.write(s + '\n')
 
     with open(f'{ith}.out', 'w') as f:
-        f.write(res)
+        f.write(res + '\n')
     return ans_cnt
 
 hi = 0
