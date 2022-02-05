@@ -41,3 +41,15 @@ Print 1 angka, minimum jumlah fujiwara harus menekan tombol agar mendapat angka 
 ```bash
 9
 ```
+
+## Sample Input 3
+
+```bash
+87617 40920
+```
+
+## Sample Output 3
+
+```bash
+46697
+```
