@@ -1,6 +1,8 @@
 #include <cstdio>
 #include <cstring>
 
+using namespace std;
+
 int main() {
     char s[200];
     int n, a, f = 0, g, l;
