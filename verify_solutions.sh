@@ -3,7 +3,7 @@
 test_problem () {
     for (( i=1; i <= $1; ++i ))
     do
-        ./a.out < $i.in | diff $i.out -
+        ./a.out < testcase/$i.in | diff testcase/$i.out -
         if (( $? != 0 ))
         then
             echo "Solution is wrong on test $i"
