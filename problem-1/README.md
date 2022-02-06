@@ -13,3 +13,53 @@ Sebaris string s berupa kata yang bisa palindrom bisa tidak. S hanya mengandung 
 ## Output
 
 Jika input s palindrom, print "kasur nababan rusak", sebaliknya, print "anta baka" diikuti dengan jumlah minimum karakter yang diganti agar menjadi palindrom.
+
+## Sample Input 1
+
+```bash
+wadadaw
+```
+
+## Sample Output 1
+
+```bash
+kasur nababan rusak
+```
+
+## Sample Input 2
+
+```bash
+amogus
+```
+
+## Sample Output 2
+
+```bash
+anta baka
+3
+```
+
+## Sample Input 3
+
+```bash
+ayaayawae
+```
+
+## Sample Output 3
+
+```bash
+anta baka
+3
+```
+
+## Sample Input 4
+
+```bash
+MAqvZfhFIAkumKkxfPfKqtIaZyZulpDHXtLdivENKKDecKAVCzDDIstZqpZdcspuzPZIDoVpeRfvMjPLyFIfoEGsVfokEkmydxJHJAJdVOSAIMrMIASOVdJAJHJxdymkEkofVsGEofIFyLPjMvfRepVoDIZPzupscdZpqZtsIDDzCVAKceDKKNEvidLtXHDpluZyZaItqKfPfxkKmukAIFhfZvqAM
+```
+
+## Sample Output 4
+
+```bash
+kasur nababan rusak
+```

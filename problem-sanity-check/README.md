@@ -11,3 +11,27 @@ Sebaris string yang berisi lowercase dan uppercase latin character saja tanpa sp
 ## Output
 
 Print string yang diberikan
+
+## Sample Input 1
+
+```bash
+sisteminformasiakademikits
+```
+
+## Sample Output 1
+
+```bash
+sisteminformasiakademikits
+```
+
+## Sample Input 2
+
+```bash
+yuretayugandasekainidandanbokuwa
+```
+
+## Sample Output 2
+
+```bash
+yuretayugandasekainidandanbokuwa
+```
