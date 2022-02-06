@@ -28,8 +28,16 @@ def generate_testcase(ith = 1):
         assert s == s[::-1]
     else:
         assert s != s[::-1]
+    
+    diff = 0
+    a, b = 0, len(s) - 1
+    while a < b:
+        if s[a] != s[b]:
+            diff += 1
+        a += 1
+        b -= 1
 
-    ans = 'kasur nababan rusak' if pal else 'anta baka'
+    ans = 'kasur nababan rusak' if pal else f'anta baka\n{diff}'
 
     with open(f'{ith}.in', 'w') as f:
         f.write(s + '\n')
