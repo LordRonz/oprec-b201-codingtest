@@ -12,7 +12,7 @@ Pada sample input 2, kita menekan tombol biru 9 kali.
 
 ## Input
 
-Inputnya adalah 2 angka n dan m, dimana 1 <= n, m < 100000.
+Inputnya adalah 2 angka n dan m, dimana 1 <= n, m < 100069.
 
 ## Output
 
@@ -45,11 +45,11 @@ Print 1 angka, minimum jumlah fujiwara harus menekan tombol agar mendapat angka 
 ## Sample Input 3
 
 ```bash
-87617 40920
+5144 84287
 ```
 
 ## Sample Output 3
 
 ```bash
-46697
+2516
 ```

@@ -8,7 +8,7 @@ Di problem ini anda akan diberi string s, tentukan apakah s adalah palindrom ata
 
 ## Input
 
-Sebaris string s berupa kata yang bisa palindrom bisa tidak. S hanya mengandung lowercase dan uppercase latin letter tanpa spasi.
+Sebaris string s berupa kata yang bisa palindrom bisa tidak. S hanya mengandung lowercase dan uppercase latin letter tanpa spasi. Panjang S tidak lebih dari 369 karakter
 
 ## Output
 
