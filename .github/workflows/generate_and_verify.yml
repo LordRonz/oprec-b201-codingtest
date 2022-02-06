@@ -1,0 +1,20 @@
+name: Generate testcase and verify solution
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  verify-solutions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Generate testcases
+        run: ./generate_testcase.sh
+      - name: Verify solutions
+        run: ./verify_solutions.sh

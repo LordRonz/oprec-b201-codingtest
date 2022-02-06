@@ -34,10 +34,10 @@ def generate_testcase(ith = 1):
                 d.append([a * 2, step + 1])
                 look.add(a * 2)
 
-    with open(f'{ith}.in', 'w') as f:
+    with open(f'testcase/{ith}.in', 'w') as f:
         f.write(f'{n} {m}\n')
 
-    with open(f'{ith}.out', 'w') as f:
+    with open(f'testcase/{ith}.out', 'w') as f:
         f.write(f'{ans}\n')
 
 for i in range(t):

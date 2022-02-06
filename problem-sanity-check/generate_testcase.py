@@ -8,10 +8,10 @@ def generate_testcase(ith = 1):
     n = randint(1, 69)
     s = ''.join(gen_rand_str() for _ in range(n))
 
-    with open(f'{ith}.in', 'w') as f:
+    with open(f'testcase/{ith}.in', 'w') as f:
         f.write(s + '\n')
 
-    with open(f'{ith}.out', 'w') as f:
+    with open(f'testcase/{ith}.out', 'w') as f:
         f.write(s + '\n')
 
 for i in range(t):

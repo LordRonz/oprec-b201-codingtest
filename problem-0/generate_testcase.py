@@ -10,10 +10,10 @@ def generate_testcase(ith = 1):
     x = int(s[-1])
     ans = 'SUS' if x & 1 else 'NOT SUS'
 
-    with open(f'{ith}.in', 'w') as f:
+    with open(f'testcase/{ith}.in', 'w') as f:
         f.write(s + '\n')
 
-    with open(f'{ith}.out', 'w') as f:
+    with open(f'testcase/{ith}.out', 'w') as f:
         f.write(ans + '\n')
 
 for i in range(t):

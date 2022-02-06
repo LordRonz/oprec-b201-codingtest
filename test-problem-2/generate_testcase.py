@@ -24,10 +24,10 @@ def generate_testcase(ith = 1):
         res = 'SAME'
         ans_cnt[2] = 1
 
-    with open(f'{ith}.in', 'w') as f:
+    with open(f'testcase/{ith}.in', 'w') as f:
         f.write(s + '\n')
 
-    with open(f'{ith}.out', 'w') as f:
+    with open(f'testcase/{ith}.out', 'w') as f:
         f.write(res + '\n')
     return ans_cnt
 

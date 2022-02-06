@@ -39,10 +39,10 @@ def generate_testcase(ith = 1):
 
     ans = 'kasur nababan rusak' if pal else f'anta baka\n{diff}'
 
-    with open(f'{ith}.in', 'w') as f:
+    with open(f'testcase/{ith}.in', 'w') as f:
         f.write(s + '\n')
 
-    with open(f'{ith}.out', 'w') as f:
+    with open(f'testcase/{ith}.out', 'w') as f:
         f.write(ans + '\n')
 
 for i in range(t):
