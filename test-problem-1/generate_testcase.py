@@ -10,7 +10,7 @@ def gen_num(odd = True):
 def generate_testcase(ith = 1):
     sus_odd = choice((True, False))
     n = randint(3, 100)
-    nums = [gen_num(not sus_odd) for _ in range(n - 1)]
+    nums = [gen_num(not sus_odd) for _ in range(n)]
     nums.append(gen_num(sus_odd))
     shuffle(nums)
 
