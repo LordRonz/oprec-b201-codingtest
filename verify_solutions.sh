@@ -7,6 +7,7 @@ test_problem () {
         if (( $? != 0 ))
         then
             echo "Solution is wrong on test $i"
+            pwd
             exit 69
         fi
     done
