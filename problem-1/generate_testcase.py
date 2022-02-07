@@ -28,7 +28,7 @@ def generate_testcase(ith = 1):
         assert s == s[::-1]
     else:
         assert s != s[::-1]
-    
+
     diff = 0
     a, b = 0, len(s) - 1
     while a < b:
