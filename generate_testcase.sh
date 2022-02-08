@@ -11,7 +11,7 @@ cd problem-sanity-check
 python generate_testcase.py
 cd ../
 
-for (( i=0; i <= 4; ++i ))
+for (( i=0; i <= 5; ++i ))
 do
     cd problem-$i
     python generate_testcase.py
